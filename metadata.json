@@ -1,0 +1,6 @@
+{
+  "name": "Global Success AI Vocabulary Architect",
+  "description": "Hệ thống AI thích ứng học từ vựng tiếng Anh đột phá theo chương trình Global Success THCS (Lớp 6, 7, 8, 9) với Spaced Repetition, AR 3D, Smart Scan, Phân tích phát âm AI và Đấu trường PvP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

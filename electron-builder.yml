@@ -1,0 +1,26 @@
+appId: com.vocabworld.ai
+productName: VOCABWORLD AI
+directories:
+  output: dist_electron
+  buildResources: build
+files:
+  - dist/**/*
+  - server.ts
+  - package.json
+win:
+  target:
+    - nsis
+    - portable
+  icon: build/icon.ico
+mac:
+  target:
+    - dmg
+    - zip
+  icon: build/icon.icns
+linux:
+  target:
+    - AppImage
+  icon: build/icon.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
